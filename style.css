@@ -1,0 +1,161 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-color: #aa956d;
+}
+h2 {
+	font-family: 'Arvo', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2c2c2c;
+	text-align: center;
+	text-decoration: underline;
+}
+p {
+	font-family: 'Arvo', serif;
+	color: #2c2c2c;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.Intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(CoffeeBG.jpeg) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+.Intro .Inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.Content{
+	max-width: 600px;
+	margin: auto;
+}
+h1{
+	font-family: 'Arvo', serif;
+	font-size: 600%;
+	font-weight: 700;
+	text-decoration: underline;
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 0px,0px,250px #000;
+}
+.Content p {
+	color: #fff;
+	text-align: center;
+}
+.Inner{
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 160%;
+	padding: 10px;
+}
+/*---nav menu --*/
+nav{
+	float: left;
+	padding: 5%, 5%,0,0;
+	height: 50px;
+}
+nav ul{
+	list-style: none;
+	float: left;
+
+}
+nav ul li{
+	font-family: 'Arvo', serif;
+	font-style: 120%;
+
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+nav ul, nav:active ul{
+	display: none;
+	left: 45px;
+	top: 60px;
+	padding: 8px 0;
+	width: 20%;
+	z-index: 1000;
+}
+
+nav li{
+	width: 100%;
+	padding: 8px 0 10px 7px;
+	margin: 0;
+}
+
+nav:hover ul{
+	display: block;
+	position: absolute;	
+}
+
+#menuIcon{
+	width: 30px;
+	height: 26px;
+	background: url(MenuButton.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+/*--end nav--*/
+.left-col{
+	width: 60%;
+	float: left;
+	text-align-last: center;
+	margin: 4% 0 4% 4%;
+}
+
+.sidebar{
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+
+.one-third-port{
+	width: 29.333333%;
+	padding: 2%;
+	float: left;
+}
+.one-third-port img:hover{
+	opacity: .6;
+}
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.clearfix{
+	clear: both;
+	height: 3%;
+}
+.parallax{
+	background: url(CoffeeBG.jpeg) repeat fixed 100%;
+	opacity: .5;
+}
+.parallax-inner{
+	padding-top: 17%;
+}
